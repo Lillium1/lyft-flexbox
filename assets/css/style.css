@@ -1,0 +1,108 @@
+*{
+	text-decoration: none;
+	list-style: none;
+  	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  background-color: #fff;
+}
+
+.flex-container{
+	display : flex;
+}
+
+/*------- HEADER -------*/
+
+#menu {
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	padding-top: 24px;
+	padding-bottom: 8px;
+	z-index: 1000;
+	padding-right: 40px;
+    left:  0px;	
+    right: 0px;
+}
+
+.menu-fijo.flex-container{
+	justify-content: flex-end;
+	align-items: center;
+	margin-right: 40px;
+}
+
+.logo{
+	width: 60px;
+	margin-right: auto;
+	padding-left: 80px;
+	overflow: hidden;
+}
+
+.esc{
+	display: none;
+}
+
+.link {
+	display: inline-block;
+	padding: 20px 40px;
+	text-decoration: none;
+	color: white;
+	font-size: 1.2em;
+	margin-left: 10px;
+}
+
+.link.nav-logIn {
+	padding: 10px 20px;
+	border: 1px solid white;
+	border-radius: 10%;
+}
+
+.nav-esc {
+	visibility: hidden;
+}
+
+.menu-fijo ul li a:hover{
+	color: #ff00bf;
+}
+
+/*----------- SCROLL -----------*/
+
+.menu-dos{
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	padding-top: 24px;
+	padding-bottom: 8px;
+	z-index: 1000;
+	padding-right: 40px;
+    left:  0px;	
+    right: 0px;
+    background-color: white;		
+}
+
+.color-a{
+	display: inline-block;
+	padding: 20px 40px;
+	text-decoration: none;
+	color: #728099;
+	font-size: 1.2em;
+	margin-left: 10px;
+}
+
+.nav-logIn-scroll{
+	padding: 10px 20px;
+	border: 1px solid #728099;
+	border-radius: 10%;
+}
+
+.nav-esc-scroll{
+	border: 1px solid #ff00bf;
+	padding: 10px 20px;
+	color: #ff00bf;
+	border-radius: 10%;
+	margin-right: 15px;
+}

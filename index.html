@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lyft</title>
+	<!--TIPOGRAFIA-->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
+	<!--ICONOS-->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<!--CSS-->
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<header id="menu">
+		<nav class="menu-fijo flex-container">
+			<ul>
+				<li>
+					<div class="logo-menu">
+						<img src="assets/img-lyft/logo-white.png" class="logo" id="logo1" alt="Logo Blanco">
+						<img src="assets/img-lyft/logo-pink.png" class="logo esc" id="logo2" alt="Logo Rosado">
+					</div>
+				</li>
+				<li><a href="#" class="link">Drive</a></li>
+				<li><a href="#" class="link">Explore</a></li>
+				<li><a href="#" class="link">Help</a></li>
+				<li><a href="#" class="link nav-logIn">Log in</a></li>
+				<li><a href="#" class="link nav-esc">Sign up</a></li>
+			</ul>
+		</nav> 
+	</header>
+
+	<section id="home" class="flex-container">
+		<video id="fondo-video" autoplay preload muted>
+			<source src="assets/img/hero-video.mp4" type='video/mp4'/>
+		</video>
+		<div id="mascara"></div>
+
+		<div id="signUp" class="signUp">	
+			<div class="titulo-signUp">
+				<h1>TURN MILES<br> INTO MONEY</h1>
+				<p>SIGN UP TO DRIVE WITH LYFT.</p>
+			</div>	
+
+			<form class="formulario-signUp" novalidate>
+				<div class="phone-container input-box">		
+					<input type="text" id="phone" class="formulario" placeholder="Phone Number">
+				</div>	
+				<div id="formulario-phone"  class="name-container input-box">
+					<input type="text" id="phone-f" class="formulario esc" placeholder="Phone Number">
+				</div>
+				<div class="name-container input-box">
+					<input type="text" id="name" class="formulario esc" placeholder="Name">
+				</div>
+				<div class="email-container input-box">
+					<input type="text" id="email" class="formulario esc" placeholder="Email">
+				</div>
+				<div class="city-container input-box">
+					<input type="text" id="city" class="formulario esc" placeholder="City">
+				</div>
+			</form>
+			<div class="btn-signUp">
+				<a href="#" id="btn-click" class="btn-drive">Become a Driver</a>
+				<a href="#" class="btn-ride">Sign Up to Ride</a>
+			</div>	
+			<div class="text-signUp">
+				<p>Already applied? <a href="#">Check the status of your application here.</a></p>
+				<p>Earn money for inviting friends to drive. <a href="#">Learn more</a></p>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
+
